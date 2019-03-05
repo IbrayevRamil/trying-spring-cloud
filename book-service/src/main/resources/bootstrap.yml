@@ -2,10 +2,9 @@ spring:
   cloud:
     config:
       name: book-service
-      uri: http://localhost:8081
-    discovery:
-      enabled: true
-      service-id: config-service
+      discovery:
+        enabled: true
+        service-id: config-service
 
 eureka:
   client:
