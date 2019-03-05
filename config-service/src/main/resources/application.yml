@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-service
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/IbrayevRamil/config-storage
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+    region: default
+    registry-fetch-interval-seconds: 5
