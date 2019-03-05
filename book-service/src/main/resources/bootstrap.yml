@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      name: book-service
+      uri: http://localhost:8081
+    discovery:
+      enabled: true
+      service-id: config-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8082/eureka/
