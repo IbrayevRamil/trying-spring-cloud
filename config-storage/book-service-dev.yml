@@ -8,4 +8,4 @@ eureka:
     registry-fetch-interval-seconds: 10
 
 server:
-  port: 8083
+  port: 8085
