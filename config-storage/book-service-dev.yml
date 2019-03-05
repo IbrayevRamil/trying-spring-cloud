@@ -2,10 +2,5 @@ spring:
   application:
     name: book-service
 
-eureka:
-  client:
-    region: default
-    registry-fetch-interval-seconds: 10
-
 server:
   port: 8085
