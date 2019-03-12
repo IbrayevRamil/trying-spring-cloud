@@ -7,7 +7,7 @@ eureka:
         hostname: localhost
     client:
         register-with-eureka: false
-        fetch-registry: true
+        fetch-registry: false
         registryFetchIntervalSeconds: 10
         serviceUrl:
             defaultZone: http://localhost:8082/eureka/
