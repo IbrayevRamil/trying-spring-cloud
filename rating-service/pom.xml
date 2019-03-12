@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>book-service</groupId>
-    <artifactId>book-service</artifactId>
+    <groupId>rating-service</groupId>
+    <artifactId>rating-service</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -29,6 +29,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cloud-common</groupId>
+            <artifactId>cloud-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
